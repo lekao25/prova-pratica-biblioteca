@@ -12,9 +12,9 @@ public class Main {
         System.out.println("=== Sistema de Emprestimo da Biblioteca - Prova Pratica ===");
         System.out.println();
 
-        AcervoLegadoWS legado = new AcervoLegadoWS();
-        CatalogoExemplares catalogo = new CatalogoExemplares(legado);
-        RelatorioColecao relatorio = new RelatorioColecao(legado);
+        FonteExemplares fonte = new AcervoLegadoAdapter(new AcervoLegadoWS());
+        CatalogoExemplares catalogo = new CatalogoExemplares(fonte);
+        RelatorioColecao relatorio = new RelatorioColecao(fonte);
 
         System.out.println("1) O mesmo dado, convertido em dois lugares");
         System.out.println("   Disponiveis segundo o catalogo:");
