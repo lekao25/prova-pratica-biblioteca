@@ -1,6 +1,6 @@
 # Respostas — Sistema de Emprestimo da Biblioteca
 
-Nome completo: ______________________________________  RA: ______________
+Nome completo: Alex Barbosa Dias  RA: 3111392523025
 
 > Preencha **todos** os campos. Campo vazio é campo não avaliado.
 > Não apague os títulos nem os rótulos em negrito: a correção procura por eles.
